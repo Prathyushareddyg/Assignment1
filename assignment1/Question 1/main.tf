@@ -1,7 +1,7 @@
 provider "aws" {
     region = "us-east-1"
-    access_key = "AKIAVI5KGKVD26Y72BVN"
-    secret_key = "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"
+    access_key = "AKIAVI5KGKVD26Y72B"
+    secret_key = "U/FoUQuvPa8WLQ4VkZmVejQgWNUF6+mR2qZt9D"
 }
 resource "aws_s3_bucket" "bucket" {
   bucket = "my-tf-assignmentone-bucket"
