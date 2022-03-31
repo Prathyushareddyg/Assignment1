@@ -1,10 +1,10 @@
 provider "aws" {
-    region = "us-east-1"
-    access_key = "AKIAVI5KGKVD26Y72B"
-    secret_key = "U/FoUQuvPa8WLQ4VkZmVejQgWNUF6+mR2qZt9D"
+    region = "ap-south-1"
+    access_key = "AKIA4JRH66NEWADZ6WQ3"
+    secret_key = "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"
 }
 resource "aws_s3_bucket" "bucket" {
-  bucket = "my-tf-assignmentone-bucket"
+  bucket = "my-tf-assignmentone-bucket-one"
 }
 
 resource "aws_s3_bucket_policy" "allow_access_from_another_user" {
