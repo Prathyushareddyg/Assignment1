@@ -1,7 +1,7 @@
 provider "aws" {
     region = "ap-south-1"
     access_key = "AKIA4JRH66NEWADZ6WQ3"
-    secret_key = "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"
+    secret_key = ""
 }
 resource "aws_s3_bucket" "bucket" {
   bucket = "my-tf-assignmentone-bucket-one"
